@@ -1,0 +1,384 @@
+body {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to top, #00fefc, #191f22 70%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: sans-serif;
+  color: white;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  margin: 6% 19%;
+  padding: 80px 0px;
+  background-color: #131618;
+  border-radius: 25px;
+  box-shadow: 0 0 29px#000000;
+}
+
+#container:hover {
+  box-shadow: 0 0 37px#00fffb;
+}
+
+#info {
+  padding-right: 230px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -62px;
+  margin-bottom: 75px;
+  text-align: right;
+  margin-right: -8px;
+
+}
+
+nav div a {
+  color: white;
+  text-decoration: none;
+  text-shadow: 0 0 5px #00fefc;
+  font-family: sans-serif;
+  font-size: 18px;
+  margin-right: 8px;
+}
+
+nav div a:hover {
+  color: #00fefc;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#container h1 {
+  margin-bottom: -12px;
+}
+
+strong {
+  color: #00fefc;
+  text-shadow: 0 0 10px #00fefc;
+}
+
+#link {
+  display: flex;
+}
+
+a img {
+  border: 1px solid #00fefc;
+  border-radius: 50%;
+  margin: 0px 9px;
+  box-shadow: 0 0 13px #00fefc;
+}
+
+a img:hover {
+  box-shadow: 0 0 20px #00fefc;
+}
+
+#my_photo {
+  box-shadow: 5px 5px 5px #00fefc;
+  border: 0px;
+  border-radius: 10%;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 0 15px #00fefc;
+  font-size: 16px;
+}
+
+button:hover {
+  border: 1px solid white;
+  background: linear-gradient(45deg, gray, black);
+}
+
+#main,
+#skill,
+#contact {
+  background: #131618;
+  border-radius: 25px;
+  box-shadow: 0 0 29px#000000;
+  margin: -5% 9%;
+  padding: 80px 50px;
+}
+
+#main:hover {
+  box-shadow: 0 0 37px#00fefc;
+}
+
+#main h1:hover {
+  text-shadow: 0 11px 9px#00fefc;
+}
+
+#main h1,
+h2 {
+  padding-top: 32px;
+  text-shadow: 0 0 4px #00fefc;
+}
+
+#container2 {
+
+  display: flex;
+  margin: 3% 2%;
+  padding: 80px 50px;
+}
+
+#container2 div {
+  background: linear-gradient(45deg, #000000, #4D4855);
+  padding: 0px 20px;
+  text-align: justify;
+  line-height: 30px;
+  border: 2px solid black;
+  margin: -60px 10px;
+  border-radius: 15px;
+  box-shadow: 0 0 13px #00fefc;
+  transition: linear 5ms;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#container2 div:hover {
+  background: linear-gradient(45deg, #4D4855, #000000);
+}
+
+#container2 div:hover {
+  box-shadow: 0 0 21px #00fefc;
+}
+
+.back {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+#container3 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+  background: whitesmoke;
+  border: 0px;
+  border-radius: 18px;
+  padding: 10px;
+  color: black;
+}
+
+#container3 div img {
+  height: 120px;
+  width: 120px;
+  border: 0px;
+  border-radius: 50%;
+}
+
+.skills {
+  border: 1px solid black;
+  width: 50%;
+  border-radius: 10px;
+  text-align: right;
+  background: #B2BEB5;
+  box-shadow: 0 0 10px #0FFF50;
+  margin-bottom: 10px;
+}
+
+#container3 div p {
+  text-shadow: 0 3px 5px black;
+}
+
+#html {
+  background: #0FFF50;
+  width: 90%;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+#css {
+  background: #0FFF50;
+  width: 92%;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+#js {
+  background: #0FFF50;
+  width: 85%;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+#java {
+  background: #0FFF50;
+  width: 95%;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+#c {
+  background: #0FFF50;
+  width: 75%;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+#db {
+  background: #0FFF50;
+  width: 83%;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+hr {
+  background-color: violet;
+  box-shadow: 0 5px 5px black;
+  width: 90%;
+}
+
+#skill {
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+}
+
+#skill:hover {
+  box-shadow: 0 0 37px#00fefc;
+}
+
+#skill div {
+  padding: 0 20px;
+  /* border: 1px solid black; */
+  background-color: whitesmoke;
+}
+
+#skill div img {
+  height: 450px;
+  width: 355px;
+  margin-left: 55px;
+  border-radius: 15px;
+  transition: linear 1.5s;
+  box-shadow: 0 15px 30px #2c2a2a;
+}
+
+
+#skill div img:hover {
+  transform: rotateY(360deg);
+
+}
+
+#skill h2 {
+  color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: italic;
+  font-size: 30px;
+  text-shadow: 0 3px 5px blue;
+}
+
+.pr {
+  width: 90%;
+}
+
+.pr ul {
+  color: black;
+  text-align: justify;
+}
+
+#skill button {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 0 20px black;
+  margin-top: 5px;
+}
+
+#skill button:hover {
+  border: 1px solid white;
+  background: linear-gradient(45deg, gray, black);
+}
+
+#contact {
+  display: flex;
+  justify-content: space-around;
+}
+
+#contact:hover {
+  box-shadow: 0 0 37px#00fefc;
+}
+
+#container5 img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin: 0px 9px;
+  box-shadow: 0 0 13px #00fefc;
+}
+
+#container5 div {
+  box-shadow: 0 0 13px #00fefc;
+  padding: 5px 0px;
+  padding-right: 200px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 9px;
+  width: 85%;
+}
+
+#container6 {
+  background: black;
+  border: 1px solid black;
+  height: 450px;
+  width: 45%;
+  color: white;
+  padding-left: 30px;
+  padding-top: 30px;
+  margin-left: 150px;
+  border-radius: 15px;
+  line-height: 25px;
+  box-shadow: 0 0 13px #00fefc;
+  margin-top: 17px;
+  ;
+}
+
+#container6 div textarea {
+  height: 150px;
+  width: 520px;
+  border: 0;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+  background: gray;
+  outline: none;
+}
+
+::placeholder {
+  color: black;
+}
+
+input {
+  height: 30px;
+  width: 520px;
+  border: 0;
+  border-radius: 7px;
+  font-weight: bold;
+  padding: 5px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: gray;
+  margin-bottom: 5px;
+  outline: none;
+  box-shadow: 0 0 5px white;
+}
+
+label {
+  font-weight: bold;
+  text-shadow: 0 0 5px #00fefc;
+  font-size: 19px;
+}
